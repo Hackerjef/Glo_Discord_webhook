@@ -1,0 +1,7 @@
+{
+    "require": {
+        "symfony/yaml": "^5.0",
+        "klein/klein": "^2.1",
+        "nopjmp/discord-webhooks": "^0.3.1"
+    }
+}

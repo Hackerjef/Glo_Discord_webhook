@@ -1,0 +1,12 @@
+webserver:
+  target_server: 
+
+discord:
+  url:
+  avatar_filename:
+  name:
+
+
+glo:
+  secret:
+  check_secret: True

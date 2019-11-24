@@ -1,0 +1,17 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start Webserver on port 8080",
+            "type": "shell",
+            "command": "php -S localhost:8080 -t public/"
+        },
+        {
+            "label": "Start ngrok on port 8080 for tunnel",
+            "type": "shell",
+            "command": "ngrok http 8080"
+        }
+    ]
+}
