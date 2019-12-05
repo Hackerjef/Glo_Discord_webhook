@@ -12,6 +12,11 @@
             "label": "Start ngrok on port 8080 for tunnel",
             "type": "shell",
             "command": "ngrok http 8080"
+        },
+        {
+            "label": "Redis-server 6379",
+            "type": "shell",
+            "command": "redis-server"
         }
     ]
 }
