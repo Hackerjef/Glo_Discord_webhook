@@ -11,12 +11,16 @@
         {
             "label": "Start ngrok on port 8080 for tunnel",
             "type": "shell",
-            "command": "ngrok http 8080"
+            "command": "ngrok http 8080",
+            "problemMatcher": []
         },
         {
             "label": "Redis-server 6379",
             "type": "shell",
-            "command": "redis-server"
+            "command": "redis-server redis.conf --port 6379 --dir %CD%",
+            "options": {
+                "cwd": "${workspaceFolder}/redis"
+            }
         }
     ]
 }

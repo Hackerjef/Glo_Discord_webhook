@@ -1,8 +1,7 @@
 {
     "require": {
         "symfony/yaml": "^5.0",
-        "klein/klein": "^2.1",
         "restcord/restcord": "^0.3.2",
-        "cheprasov/php-redis-client": "^1.9"
+        "predis/predis": "^1.1"
     }
 }
