@@ -45,10 +45,10 @@
         exit;
     }
 
-    //figure out a way to save what events go wear with some type of update path between each webhook send
-
-
-    //get eventid
-
+    //event types https://support.gitkraken.com/developers/webhooks/event-types-payload/#webhook-header
+    // Board
+    // Column
+    // Card 
+    // Comment
 
 ?>
