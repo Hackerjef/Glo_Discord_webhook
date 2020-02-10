@@ -1,3 +1,4 @@
 vendor
 settings.yaml
 redis/appendonly.aof
+.vscode/settings.json
